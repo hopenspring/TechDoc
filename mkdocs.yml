@@ -1,4 +1,5 @@
 site_name: KCC Tech Documentation
+site_url: https://hopenspring.github.io/TechDoc/
 
 extra_css:
   - stylesheets/extra.css
