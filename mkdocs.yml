@@ -19,7 +19,6 @@ markdown_extensions:
   - tables
   
 
-
 theme:
   name: material
   features:
@@ -37,7 +36,6 @@ theme:
     scheme: default
     primary: indigo
 
-  
 plugins:
   - search:
 
@@ -68,3 +66,4 @@ copyright: Copyright &copy; 2022. KCC Co., Ltd. All rights reserved.
 
 extra:
   generator: false
+  homepage: https://hopenspring.github.io/TechDoc/
