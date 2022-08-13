@@ -7,11 +7,11 @@ hide:
 
 ![KAW-Image](/img/sample.png){style="width:500px"}
 
-<!--
+
 Text can be {--deleted--} and replacement text {++added++}. This can also be
 combined into {~~one~>a single~~} operation. {==Highlighting==} is also
 possible {>>and comments can be added inline<<}.
--->
+
 
 {==
 
@@ -56,4 +56,56 @@ possible {>>and comments can be added inline<<}.
 | 사용유체        |               | :material-close:     Delete resourceDelete resourceDelete resource |        |        |        |        |
 
 
+- ==This was marked==
+- ^^This was inserted^^
+- ~~This was deleted~~
+
 ## 제품 구성 및 조립도
+
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th align="right"></th>
+<th>KAW101</th>
+<th>KAW201</th>
+<th>KAW301</th>
+<th>KAE401</th>
+<th>KAW601</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>관 접속구경</td>
+<td align="right">표준<br>옵션</td>
+<td>Rc(PT)1/4"<br>Rc(PT)1/8", G 1/4", NPT1/4"</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td align="right"></td>
+<td colspan="5"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"></path></svg></span>     Fetch resource</td>
+</tr>
+<tr>
+<td>압력계 접속구경</td>
+<td align="right"></td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.41 13.41 6 19l1.41-1.42L1.83 12m20.41-6.42L11.66 16.17 7.5 12l-1.43 1.41L11.66 19l12-12M18 7l-1.41-1.42-6.35 6.35 1.42 1.41L18 7Z"></path></svg></span> Update resource</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>사용유체</td>
+<td align="right"></td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg></span>     Delete resourceDelete resourceDelete resource</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>

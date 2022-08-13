@@ -8,12 +8,16 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - md_in_html
   - tables
+  
 
 
 theme:
@@ -48,7 +52,7 @@ nav:
 #    - 유압 실린더: Cat/Hyd_cyl/hyd_cyl.md
 #    - 공압 밸브: Cat/Pneu_valve/pne_valve.md
 #    - 프로세스밸브: Cat/Process valve/processvalve.md
-#    - 청정화기기(FRL):
+#    - 청정화기기(F.R.L):
 #      - KAW: Cat/FRL/kaw.md
 #    - 에어 드라이어: Cat/Dryer/dryer.md
 #    - 가스스프링/쇽업쇼바: Cat/Gas_spring/gasspring.md
