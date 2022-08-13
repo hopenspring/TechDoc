@@ -1,8 +1,4 @@
 site_name: KCC Tech Documentation
-site_url: https://hopenspring.github.io/TechDoc/
-
-repo_name: hopenspring/TechDoc
-repo_url: https://github.com/hopenspring/TechDoc
 
 extra_css:
   - stylesheets/extra.css
