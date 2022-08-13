@@ -5,7 +5,7 @@ hide:
 # KAW-/KAF-/KAF
 **필터 레귤레이터, 레귤레이터, 필터 (모듈러 타입)**
 
-![KAW-Image](/img/sample.png){style="width:500px"}
+![KAW-Image](/img/sample.png){style="width:450px"}
 
 
 Text can be {--deleted--} and replacement text {++added++}. This can also be
