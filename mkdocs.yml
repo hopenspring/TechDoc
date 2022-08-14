@@ -1,5 +1,4 @@
 site_name: KCC Tech Documentation
-site_url: https://hopenspring.github.io/TechDoc/
 
 extra_css:
   - stylesheets/extra.css
@@ -12,14 +11,17 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.caret
   - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - md_in_html
   - tables
-  
 
+  
 theme:
   name: material
   features:
@@ -30,15 +32,18 @@ theme:
     - navigation.sections
     - navigation.instant
     - toc.integrate
+
   font:
     text: Noto Sans
+  
   logo: assets/logo.svg
+  
   palette:
     scheme: default
     primary: indigo
 
-plugins:
-  - search:
+plugins: []
+  #- search:
 
 nav:
   - 소개: index.md
@@ -67,4 +72,3 @@ copyright: Copyright &copy; 2022. KCC Co., Ltd. All rights reserved.
 
 extra:
   generator: false
-  homepage: https://hopenspring.github.io/TechDoc/

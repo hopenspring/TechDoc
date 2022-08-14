@@ -37,3 +37,15 @@ hide:
 본 서비스는 현재 테스트 단계로 정보와 기능이 미흡하거나 제한되어 있는 점 양해바랍니다.
 
 ==}
+
+<!-->
+- ==This was marked==
+- ^^This was inserted^^
+- ~~This was deleted~~ 
+
+
+Text can be {--deleted--} and replacement text {++added++}. This can also be
+combined into {~~one~>a single~~} operation. {==Highlighting==} is also
+possible {>>and comments can be added inline<<}.
+
+-->

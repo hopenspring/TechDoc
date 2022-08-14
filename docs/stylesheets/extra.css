@@ -129,3 +129,9 @@ background-color: rgb(255, 183, 0);
 .md-typeset table:not([class]) {
     font-size: .7rem;
 }
+
+/*
+table, td, th {
+  border : .05rem solid var(--md-typeset-table-color) !important;
+  border-collapse : collapse;
+}; */
