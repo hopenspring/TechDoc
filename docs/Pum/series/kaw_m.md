@@ -43,29 +43,101 @@ hide:
 
 ## 제품사양
 
-| 항목                  | KAW                                       | KAW        | KAW        | KAW        | KAW      | KAF                                       | KAF        | KAF        | KAF        | KAF      | KAR        | KAR        | KAR        | KAR        | KAR      |
-| :-------------------- | :---------------------------------------- | :--------- | :--------- | :--------- | :------- | :---------------------------------------- | :--------- | :--------- | :--------- | :------- | :--------- | :--------- | :--------- | :--------- | :------- |
-| 사이즈                | KAW101                                    | KAW201     | KAW301     | KAW401     | KAW601   | KAF101                                    | KAF201     | KAF301     | KAF401     | KAF601   | KAR101     | KAR201     | KAR301     | KAR401     | KAR601   |
-| 관접속구경            | Rc(PT)1/8"                                | Rc(PT)1/4" | Rc(PT)3/8" | Rc(PT)1/2" | Rc(PT)1" | Rc(PT)1/8"                                | Rc(PT)1/4" | Rc(PT)3/8" | Rc(PT)1/2" | Rc(PT)1" | Rc(PT)1/8" | Rc(PT)1/4" | Rc(PT)3/8" | Rc(PT)1/2" | Rc(PT)1" |
-| 압력계 접속구경       |                                           |            |            |            |          |                                           |            |            |            |          |            |            |            |            |          |
-| 사용 유체             | 여과된 압축 공기                          |            |            |            |          |                                           |            |            |            |          |            |            |            |            |          |
-| 주변 및 사용유체 온도 | -5 ~ 60 ℃ (단, 결빙이 없어야 함)          |            |            |            |          |                                           |            |            |            |          |            |            |            |            |          |
+**KAW**
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th align="left">항목</th>
+<th align="left">KAW101</th>
+<th align="left">KAW201</th>
+<th align="left">KAW301</th>
+<th align="left">KAW401</th>
+<th align="left">KAW601</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">관접속구경</td>
+<td align="left">Rc(PT)1/8"</td>
+<td align="left">Rc(PT)1/4"</td>
+<td align="left">Rc(PT)3/8"</td>
+<td align="left">Rc(PT)1/2"</td>
+<td align="left">Rc(PT)1"</td>
+</tr>
+<tr>
+<td align="left">압력계 접속구경</td>
+<td align="left">Rc(PT)1/16"</td>
+<td align="left">Rc(PT)1/8"</td>
+<td align="left">Rc(PT)1/8"</td>
+<td align="left">Rc(PT)1/4"</td>
+<td align="left">Rc(PT)1/4"</td>
+</tr>
+<tr>
+<td align="left">사용 유체</td>
+<td align="center" colspan="5">여과된 압축 공기</td>
+</tr>
+<tr>
+<td align="left">주변 및 사용유체 온도</td>
+<td align="center" colspan="5">-5 ~ 60 ℃ (단, 결빙이 없어야 함)</td>
+</tr>
+<tr>
+<td align="left">보증내 압력</td>
+<td align="center" colspan="5">1.5 Mpa</td>
+</tr>
+<tr>
+<td align="left">사용압력</td>
+<td align="center" colspan="5">0.05 ~ 0.85 Mpa</td>
+</tr>
+<tr>
+<td align="left">설정압력범위</td>
+<td align="center" colspan="5">0.05 ~ 0.85 Mpa</td>
+</tr>
+<tr>
+<td align="left">여과도</td>
+<td align="center" colspan="5">표준: 5 μm, 옵션: 20 μm, 40 μm</td>
+</tr>
+<tr>
+<td align="left">바울/바울가드 재질</td>
+<td align="center" colspan="5">바울: 폴리카보네이트 / 바울가드: 나이론</td>
+</tr>
+<tr>
+<td align="left">작동 방식</td>
+<td align="center" colspan="5">표준: 릴리프타입 / 옵션: 체크밸브내장</td>
+</tr>
+<tr>
+<td align="left">드레인 타입</td>
+<td align="center" colspan="5">자동 드레인(차압식 / 플로트식)</td>
+</tr>
+<tr>
+<td align="left">중량</td>
+<td align="left">78g</td>
+<td align="left">215g</td>
+<td align="left">520g</td>
+<td align="left">850g</td>
+<td align="left">2,550g</td>
+</tr>
+</tbody>
+</table></div></div>
 
+<!--
+| 항목                  | KAW101                                              | KAW201     | KAW301     | KAW401     | KAW601     |
+| :-------------------- | :-------------------------------------------------- | :--------- | :--------- | :--------- | :--------- |
+| 관접속구경            | Rc(PT)1/8"                                          | Rc(PT)1/4" | Rc(PT)3/8" | Rc(PT)1/2" | Rc(PT)1"   |
+| 압력계 접속구경       | Rc(PT)1/16"                                         | Rc(PT)1/8" | Rc(PT)1/8" | Rc(PT)1/4" | Rc(PT)1/4" |
+| 사용 유체             | 여과된 압축 공기  {colspan=5}                       |            |            |            |            |
+| 주변 및 사용유체 온도 | -5 ~ 60 ℃ (단, 결빙이 없어야 함)  {colspan=5}       |            |            |            |            |
+| 보증내 압력           | 1.5 Mpa  {colspan=5}                                |            |            |            |            |
+| 사용압력              | 0.05 ~ 0.85 Mpa {colspan=5}                         |            |            |            |            |
+| 설정압력범위          | 0.05 ~ 0.85 Mpa {colspan=5}                         |            |            |            |            |
+| 여과도                | 표준: 5 μm, 옵션: 20 μm, 40 μm {colspan=5}          |            |            |            |            |
+| 바울/바울가드 재질    | 바울: 폴리카보네이트 / 바울가드: 나이론 {colspan=5} |            |            |            |            |
+| 작동 방식             | 표준: 릴리프타입 / 옵션: 체크밸브내장  {colspan=5}  |            |            |            |            |
+| 드레인 타입           | 자동 드레인(차압식 / 플로트식)  {colspan=5}         |            |            |            |            |
+| 중량                  | 78g                                                 | 215g       | 520g       | 850g       | 2,550g     |
+-->
 
-| 항목                  | KAW                                       | KAW        | KAW        | KAW        | KAW      |
-| :-------------------- | :---------------------------------------- | :--------- | :--------- | :--------- | :------- |
-| 사이즈                | KAW101                                    | KAW201     | KAW301     | KAW401     | KAW601   |
-| 관접속구경            | Rc(PT)1/8"                                | Rc(PT)1/4" | Rc(PT)3/8" | Rc(PT)1/2" | Rc(PT)1" |
-| 압력계 접속구경       |                                           |            |            |            |          |
-| 사용 유체             | 여과된 압축 공기                          |            |            |            |          |
-| 주변 및 사용유체 온도 | -5 ~ 60 ℃ (단, 결빙이 없어야 함)          |            |            |            |          |
-| 보증내 압력           | 1.5 Mpa                                   |            |            |            |          |
-| 사용압력              | 0.05 ~ 0.85 Mpa                           |            |            |            |          |
-| 설정압력범위          | 0.05 ~ 0.85 Mpa                           |            |            |            |          |
-| 여과도                | 5 μm                                      |            |            |            |          |
-| 바울/바울가드 재질    | 바울 : 폴리카보네이트 / 바울가드 : 나이론 |            |            |            |          |
-| 작동 방식             | 릴리프타입                                |            |            |            |          |
-| 드레인 타입           | 자동 드레인(차압식 / 플로트식)            |            |            |            |          |
+**KAR**
+
 
 
 ## 제품 구성 및 조립도
