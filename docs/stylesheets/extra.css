@@ -182,7 +182,7 @@ table, td, th {
     }
 }
 
-/* TOC permalink*/
+/* TOC permalink**/
 .headerlink {
 	--permalink-size: 0.6em; 
 	--permalink-spacing: 4px;
