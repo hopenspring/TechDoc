@@ -149,7 +149,7 @@ background-color: rgb(255, 183, 0);
 
 [dir=ltr] .md-nav--integrated>.md-nav__list>.md-nav__item--active .md-nav--secondary {
     border-left: 0;
-    
+
 }
 
 /*
@@ -157,3 +157,28 @@ table, td, th {
   border : .05rem solid var(--md-typeset-table-color) !important;
   border-collapse : collapse;
 }; */
+
+.md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
+    padding-bottom: 20px;
+}
+
+/* 좌측 페이지 메뉴 */
+.md-sidebar__scrollwrap {
+    padding-right: 20px;
+}
+
+/* 콘텐츠 스페이스 */
+.md-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 80em;
+}
+
+/* 콘텐츠 스페이스, 고해상도에서만 여백증가, 수직라인 */
+@media screen and (min-width: 76.25em){
+    .md-content {
+        padding-left: 20px;
+        padding-right: 20px; 
+        border-left: 1px solid var(--md-typeset-table-color);
+    }
+}

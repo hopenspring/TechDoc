@@ -15,11 +15,14 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.superfences
   - attr_list
+  - md_in_html
+  - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - md_in_html
-  - tables
+  - toc:
+      title: 목차
+      permalink: true
 
   
 theme:
@@ -29,15 +32,13 @@ theme:
     #- navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
-    - navigation.sections
+    #- navigation.sections
     - navigation.instant
-    - toc.integrate
-
+    #- toc.integrate
+    - navigation.expand
   font:
     text: Noto Sans
-  
   logo: assets/logo.svg
-  
   palette:
     scheme: default
     primary: indigo
@@ -47,26 +48,31 @@ plugins: []
 
 nav:
   - 소개: index.md
-#  - 카탈로그:
-#    - Cat/index.md
-#    - 공압 실린더:
-#      - ACP: Cat/Pneu_cyl/acp.md
-#      - ACS: Cat/Pneu_cyl/acs.md
-#      - ACM: Cat/Pneu_cyl/acm.md
-#    - 유압 실린더: Cat/Hyd_cyl/hyd_cyl.md
-#    - 공압 밸브: Cat/Pneu_valve/pne_valve.md
-#    - 프로세스밸브: Cat/Process valve/processvalve.md
-#    - 청정화기기(F.R.L):
-#      - KAW: Cat/FRL/kaw.md
-#    - 에어 드라이어: Cat/Dryer/dryer.md
-#    - 가스스프링/쇽업쇼바: Cat/Gas_spring/gasspring.md
-#    - 진공 유니트: Cat/Vacuum/vacuum.md
-#    - 악세사리: Cat/Acc/acc.md
-#    - 기타 공압기기: Cat/Others/others.md
-  - 제품 사용 설명서: 
-    - KAW-/KAR-/KAF: Pum/series/kaw_m.md
+  - 카탈로그:
+    - Cat/index.md
+    - 공압 실린더:
+      - ACP: Cat/Pneu_cyl/acp.md
+      - ACS: Cat/Pneu_cyl/acs.md
+      - ACM: Cat/Pneu_cyl/acm.md
+    - 유압 실린더: Cat/Hyd_cyl/hyd_cyl.md
+    - 공압 밸브: Cat/Pneu_valve/pne_valve.md
+    - 프로세스밸브: Cat/Process valve/processvalve.md
+    - 청정화기기(F.R.L):
+      - KAW: Cat/FRL/kaw.md
+    - 에어 드라이어: Cat/Dryer/dryer.md
+    - 가스스프링/쇽업쇼바: Cat/Gas_spring/gasspring.md
+    - 진공 유니트: Cat/Vacuum/vacuum.md
+    - 악세사리: Cat/Acc/acc.md
+    - 기타 공압기기: Cat/Others/others.md
+  - 제품 사용 설명서:
+    - 에어클린유니트:
+      - KAW-/KAR-/KAF: Pum/FRL/kaw_m.md
     #- KAFM/U: Pum/series/kafm-u_m.md
     #- KAR231: Pum/series/kar231_m.md
+    - 공통 기술정보:
+      - Pum/others.md
+
+
 
 copyright: Copyright &copy; 2022. KCC Co., Ltd. All rights reserved.
 
