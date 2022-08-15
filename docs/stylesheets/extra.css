@@ -147,6 +147,10 @@ background-color: rgb(255, 183, 0);
     display: table;
 }
 
+[dir=ltr] .md-nav--integrated>.md-nav__list>.md-nav__item--active .md-nav--secondary {
+    border-left: 0;
+}
+
 /*
 table, td, th {
   border : .05rem solid var(--md-typeset-table-color) !important;
