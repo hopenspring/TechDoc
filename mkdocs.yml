@@ -22,7 +22,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       title: 목차
-      permalink: true
+      permalink: '' #true or false or '' > ''은 github style, css에서 설정
 
   
 theme:
@@ -34,7 +34,7 @@ theme:
     - navigation.indexes
     #- navigation.sections
     - navigation.instant
-    #- toc.integrate
+    - toc.integrate
     - navigation.expand
   font:
     text: Noto Sans
@@ -48,22 +48,22 @@ plugins: []
 
 nav:
   - 소개: index.md
-  - 카탈로그:
-    - Cat/index.md
-    - 공압 실린더:
-      - ACP: Cat/Pneu_cyl/acp.md
-      - ACS: Cat/Pneu_cyl/acs.md
-      - ACM: Cat/Pneu_cyl/acm.md
-    - 유압 실린더: Cat/Hyd_cyl/hyd_cyl.md
-    - 공압 밸브: Cat/Pneu_valve/pne_valve.md
-    - 프로세스밸브: Cat/Process valve/processvalve.md
-    - 청정화기기(F.R.L):
-      - KAW: Cat/FRL/kaw.md
-    - 에어 드라이어: Cat/Dryer/dryer.md
-    - 가스스프링/쇽업쇼바: Cat/Gas_spring/gasspring.md
-    - 진공 유니트: Cat/Vacuum/vacuum.md
-    - 악세사리: Cat/Acc/acc.md
-    - 기타 공압기기: Cat/Others/others.md
+#  - 카탈로그:
+#    - Cat/index.md
+#    - 공압 실린더:
+ #     - ACP: Cat/Pneu_cyl/acp.md
+ #     - ACS: Cat/Pneu_cyl/acs.md
+ #     - ACM: Cat/Pneu_cyl/acm.md
+ #   - 유압 실린더: Cat/Hyd_cyl/hyd_cyl.md
+ #   - 공압 밸브: Cat/Pneu_valve/pne_valve.md
+ #   - 프로세스밸브: Cat/Process valve/processvalve.md
+ #   - 청정화기기(F.R.L):
+ #     - KAW: Cat/FRL/kaw.md
+ #   - 에어 드라이어: Cat/Dryer/dryer.md
+ #   - 가스스프링/쇽업쇼바: Cat/Gas_spring/gasspring.md
+ #   - 진공 유니트: Cat/Vacuum/vacuum.md
+ #   - 악세사리: Cat/Acc/acc.md
+ #   - 기타 공압기기: Cat/Others/others.md
   - 제품 사용 설명서:
     - 에어클린유니트:
       - KAW-/KAR-/KAF: Pum/FRL/kaw_m.md
