@@ -65,8 +65,8 @@ nav:
 #    - 기타 공압기기: Cat/Others/others.md
   - 제품 사용 설명서: 
     - KAW-/KAR-/KAF: Pum/series/kaw_m.md
-    - KAFM/U: Pum/series/kafm-u_m.md
-    - KAR231: Pum/series/kar231_m.md
+    #- KAFM/U: Pum/series/kafm-u_m.md
+    #- KAR231: Pum/series/kar231_m.md
 
 copyright: Copyright &copy; 2022. KCC Co., Ltd. All rights reserved.
 
