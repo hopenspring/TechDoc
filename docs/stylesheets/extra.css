@@ -149,6 +149,7 @@ background-color: rgb(255, 183, 0);
 
 [dir=ltr] .md-nav--integrated>.md-nav__list>.md-nav__item--active .md-nav--secondary {
     border-left: 0;
+    
 }
 
 /*
