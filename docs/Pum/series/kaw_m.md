@@ -44,7 +44,8 @@ hide:
 ## 제품사양
 
 **KAW**
-<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+
+<table>
 <thead>
 <tr>
 <th align="left">항목</th>
@@ -117,7 +118,7 @@ hide:
 <td align="left">2,550g</td>
 </tr>
 </tbody>
-</table></div></div>
+</table>
 
 <!--
 | 항목                  | KAW101                                              | KAW201     | KAW301     | KAW401     | KAW601     |
