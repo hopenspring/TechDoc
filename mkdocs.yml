@@ -34,7 +34,7 @@ theme:
     - navigation.indexes
     #- navigation.sections
     - navigation.instant
-    - toc.integrate
+    #- toc.integrate
     - navigation.expand
   font:
     text: Noto Sans
