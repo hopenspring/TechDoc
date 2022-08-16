@@ -114,11 +114,11 @@ hide:
 </tr>
 <tr>
 <td align="left">중량</td>
-<td align="left">78g</td>
-<td align="left">215g</td>
-<td align="left">520g</td>
-<td align="left">850g</td>
-<td align="left">2,550g</td>
+<td align="center">78g</td>
+<td align="center">215g</td>
+<td align="center">520g</td>
+<td align="center">850g</td>
+<td align="center">2,550g</td>
 </tr>
 </tbody>
 </table>
