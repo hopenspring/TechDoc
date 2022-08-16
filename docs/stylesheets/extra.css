@@ -222,3 +222,20 @@ table, td, th {
 		margin-left: calc(var(--permalink-size) * -1 - var(--permalink-spacing)) !important;
 	}
 } */
+
+.md-typeset :is(.admonition,details) {
+    font-size: 0.75rem;
+}
+
+/* 아이콘 색상 :###: + {.ico_red */
+.ico_red {
+    color: #ff0000;
+}
+
+.ico_org {
+    color: #ff0000;
+}
+
+.ico_ylw {
+    color: #ff0000;
+}

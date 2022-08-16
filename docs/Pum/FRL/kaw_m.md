@@ -5,7 +5,7 @@ hide:
 # KAW-/KAF-/KAF
 **필터 레귤레이터, 필터, 레귤레이터 (모듈러 타입)**
 
-![KAW-Image](../../img/kaw_main.jpg){style="width:700px"}
+![KAW-main](../../img/kaw_main.jpg){style="width:700px"}
 
 {==
 
@@ -293,3 +293,13 @@ hide:
 </table>
 
 ## 제품 구성 및 조립도
+![KAW-Structure](../../img/kaw_str.png){style="width:600px"}
+
+## 모듈 조립방법
+### 조립 유의사항
+!!! danger "위험"
+    유체 공급방향에 유의하여 조립하여 주십시오.<br>순서 : 공급측 -> 출력측
+* 모듈러 조립 기본순서 : 필터 → 레귤레이터 → 루브리케이터
+* 다수의 필터 조립시 여과도가 큰 것에서 작은 순으로 조립합니다.
+
+![KAW-Assemble](../../img/kaw_assemble.jpg){style="width:600px"}
