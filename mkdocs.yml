@@ -73,9 +73,9 @@ nav:
     #- KAR231: Pum/series/kar231_m.md
     - 관련 기술정보:
       - 공압 일반: Pum/others.md
-      - 공압 실린더: Pum/other_cyl.md
-      - 공압 밸브: Pum/other_valve.md
-      - 에어클린유니트: Pum/other_frl.md
+      - 공압 실린더: ''
+      - 공압 밸브: ''
+      - 에어클린유니트: ''
 
 
 
