@@ -40,7 +40,7 @@ theme:
     text: Noto Sans
   logo: assets/logo.svg
   palette:
-    scheme: default
+    scheme: defult #slate
     primary: indigo
 
 plugins: []
