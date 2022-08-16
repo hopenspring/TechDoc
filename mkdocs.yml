@@ -65,12 +65,17 @@ nav:
  #   - 악세사리: Cat/Acc/acc.md
  #   - 기타 공압기기: Cat/Others/others.md
   - 제품 사용 설명서:
+    - 공압 실린더:
+      - ACM/ACL: Pum/Pneu_cyl/acm_acl_m.md
     - 에어클린유니트:
       - KAW-/KAR-/KAF: Pum/FRL/kaw_m.md
     #- KAFM/U: Pum/series/kafm-u_m.md
     #- KAR231: Pum/series/kar231_m.md
-    - 공통 기술정보:
-      - Pum/others.md
+    - 관련 기술정보:
+      - 공압 일반: Pum/others.md
+      - 공압 실린더: Pum/other_cyl.md
+      - 공압 밸브: Pum/other_valve.md
+      - 에어클린유니트: Pum/other_frl.md
 
 
 
