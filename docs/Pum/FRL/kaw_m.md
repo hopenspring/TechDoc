@@ -6,7 +6,7 @@ hide:
 # KAW-/KAF-/KAF
 **필터 레귤레이터, 필터, 레귤레이터 (모듈러 타입)**
 
-![KAW-main](../../img/kaw_main.jpg){style="width:700px"}
+![KAW-main](../../img/kaw_main.png){style="width:700px"}
 
 {==
 
